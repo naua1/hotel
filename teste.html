@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+    function manutenção(){
+   
+   let empresa = prompt("Qual o nome da empresa?");
+   let valor = parseFloat(prompt("Qual o valor por aparelho?"));
+   let quantidade = parseInt(prompt("Qual a quantidade de aparelhos?"));
+   let desconto = parseFloat(prompt("Qual a porcentagem de desconto?"));
+   let quantidadeDesconto = parseInt(prompt("Qual o número mínimo de aparelhos para conseguir o desconto?"));
+   if( isNaN(valor)|| isNaN(quantidade) || isNaN(desconto)|| isNaN(quantidadeDesconto)){
+
+    alert("digite um numero");
+    manutenção();
+
+   }
+   let manu = valor * quantidade;
+   nomesem.push(empresa);
+
+   if(quantidade >= quantidadeDesconto){
+
+	   let conta = desconto * quantidade;
+	   var aaa = manu - conta
+	   valores.push(aaa);
+	   alert(`O serviço de ${empresa} custará R$ ${aaa}`)
+   }
+   else{
+	 alert(`O serviço de ${empresa} custará R$ ${manu}`)
+	 valores.push(manu);
+   }
+   var valor_min = Math.min(...valores);
+  
+   let confirma = prompt( "Deseja informar novos dados, {Nome}? (S/N)")
+   if(confirma == 's' || confirma == 'S'){
+
+manutenção();
+   }
+   else{
+	 let i = parseInt(valores.indexOf(valor_min));
+	 alert( `O orçamento de menor valor é o ${nomesem[i]} por R$ ${valor_min}`)
+	 inicio();
+   }
+	 }
+    </script>
+</body>
+</html>
