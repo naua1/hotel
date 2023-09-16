@@ -1,6 +1,8 @@
-Este é um projeto de software em JavaScript para gerenciar um hotel. Importante observar que este projeto não possui uma interface gráfica e deve ser acessado exclusivamente pelo terminal (linha de comando). Isso significa que todas as interações e operações com o programa serão realizadas diretamente no terminal do seu sistema operacional.
+
 
 # hotel
+
+Este é um projeto de software em JavaScript para gerenciar um hotel. Importante observar que este projeto não possui uma interface gráfica e deve ser acessado exclusivamente pelo terminal (linha de comando). Isso significa que todas as interações e operações com o programa serão realizadas diretamente no terminal do seu sistema operacional.
 
 # Senha que o codigo pede para ser executado 2678
 
