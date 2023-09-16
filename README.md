@@ -11,8 +11,8 @@ Este é um projeto de um sistema de gerenciamento de hotel desenvolvido com part
 
 Antes de começar, execute o código e observe o comportamento.
 
-Funcionalidades
-Autenticação
+# Funcionalidades
+# Autenticação
 Ao acessar o sistema, solicita o nome do hotel e exibe "O nome do hotel é {Hotel}".
 Pergunta o nome do usuário e uma senha. A senha deve ser "2678".
 Exibe "Bem vindo ao Hotel {Hotel}, {Nome}. É um imenso prazer ter você por aqui!" após a autenticação.
@@ -23,7 +23,7 @@ Valida as informações para garantir que o valor da diária não seja negativo 
 Solicita o nome do hóspede.
 Pergunta se o usuário confirma a reserva e exibe os detalhes.
 Exibe uma mensagem de confirmação ou cancelamento da reserva.
-Cadastro de Hóspedes
+# Cadastro de Hóspedes
 Permite o usuário definir o valor padrão da diária.
 Cadastra hóspedes com seus nomes e idades.
 Hóspedes com menos de 6 anos têm gratuidade.
@@ -33,7 +33,7 @@ Cadastro e Pesquisa de Hóspedes
 Permite o usuário cadastrar e pesquisar hóspedes.
 Limite máximo de 15 cadastros.
 Mostra se o hóspede foi encontrado ou não.
-Gerenciamento de Eventos
+# Gerenciamento de Eventos
 Calcula o custo total da contratação de garçons para um evento.
 Pergunta se o usuário aceita os valores e exibe a mensagem de reserva efetuada ou não.
 Buffet para Eventos
@@ -47,7 +47,7 @@ Pergunta se o usuário deseja fazer a reserva.
 Reserva de Restaurante
 Verifica se o restaurante do hotel está disponível com base no dia da semana e na hora informada.
 Se disponível, solicita o nome da empresa e mostra a mensagem de reserva.
-Escolha de Combustível
+# Escolha de Combustível
 Calcula qual combustível é mais econômico com base nos preços de álcool e gasolina em dois postos.
 Aplica uma regra onde o álcool deve ser 30% mais barato que a gasolina para ser vantajoso.
 Informa qual posto e combustível é mais econômico.
